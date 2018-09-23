@@ -33,7 +33,7 @@ namespace CentralTelefonica
         {
             string retorno = this.Mostrar();
             StringBuilder local = new StringBuilder();
-            local.AppendFormat("{0},{1}", retorno, this.CostoLlamada);
+            local.AppendFormat("Llamada: {0},Costo Llamada:{1}", retorno, this.CostoLlamada);
             return local.ToString();
         }
     }

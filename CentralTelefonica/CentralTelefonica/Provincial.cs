@@ -42,7 +42,7 @@ namespace CentralTelefonica
         {
             string retorno = this.Mostrar();
             StringBuilder provincia = new StringBuilder();
-            provincia.AppendFormat("{0},{1},{2}", retorno, this.CostoLlamada,this.franjaHoraria);
+            provincia.AppendFormat("Llamada: {0}, Costo Llamada: {1},Franja Horaria: {2}", retorno, this.CostoLlamada,this.franjaHoraria);
             return provincia.ToString();
         }
         public Provincial(Franja minFranja,Llamada llamada):base(llamada.Duracion,llamada.NroDestino,llamada.NroOrigen)

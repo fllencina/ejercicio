@@ -23,14 +23,14 @@ namespace Test
 
             c.llamadas.Add(l1);
             Console.WriteLine(c.Mostrar());
-            /*c.llamadas.Add(l2);
+            c.llamadas.Add(l2);
             Console.WriteLine(c.Mostrar());
             c.llamadas.Add(l3);
             Console.WriteLine(c.Mostrar());
             c.llamadas.Add(l4);
             Console.WriteLine(c.Mostrar());
             c.OrdenarLlamadas();
-            Console.WriteLine(c.Mostrar());*/
+            Console.WriteLine(c.Mostrar());
             Console.ReadKey();
         }
     }

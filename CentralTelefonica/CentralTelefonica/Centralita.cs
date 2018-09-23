@@ -16,34 +16,34 @@ namespace CentralTelefonica
         {
             float ganancia = 0;
 
-            for (int i = 0; i < ListaDeLlamadas.Capacity; i++)
+            foreach ( Llamada unaLlamada in ListaDeLlamadas)
             {
-                Llamada unaLlamada = ListaDeLlamadas.ElementAt<Llamada>(i);
-                if (tipo == Llamada.TipoLlamada.Local)
+                //ganancia = 0;
+                switch(tipo)
                 {
-                    if (unaLlamada is Local)
-                    {
-                        ganancia = ganancia + ((Local)unaLlamada).CostoLlamada;
-                    }
+                    case Llamada.TipoLlamada.Local:
+                        if (unaLlamada is Local)
+                        {
+                            ganancia = ganancia + ((Local)unaLlamada).CostoLlamada;
+                        }
+                        break;
+                    case Llamada.TipoLlamada.Provincial:
+                        if (unaLlamada is Provincial)
+                        {
+                            ganancia = ganancia + ((Provincial)unaLlamada).CostoLlamada;
+                        }
+                        break;
+                    case Llamada.TipoLlamada.Todas:
+                        if (unaLlamada is Local)
+                        {
+                            ganancia = ganancia + ((Local)unaLlamada).CostoLlamada;
+                        }
+                        if (unaLlamada is Provincial)
+                        {
+                            ganancia = ganancia + ((Provincial)unaLlamada).CostoLlamada;
+                        }
+                        break;                       
                 }
-                if (tipo == Llamada.TipoLlamada.Provincial)
-                {
-                    if (unaLlamada is Provincial)
-                    {
-                        ganancia = ganancia + ((Provincial)unaLlamada).CostoLlamada;
-                    }
-                }
-                if (tipo == Llamada.TipoLlamada.Todas)
-                {
-                    if (unaLlamada is Local)
-                    {
-                        ganancia = ganancia + ((Local)unaLlamada).CostoLlamada;
-                    }
-                    if (unaLlamada is Provincial)
-                    {
-                        ganancia = ganancia + ((Provincial)unaLlamada).CostoLlamada;
-                    }
-                } 
             }
             return ganancia; 
         }
@@ -51,11 +51,13 @@ namespace CentralTelefonica
         public string Mostrar()
         {
             StringBuilder llamada = new StringBuilder();
-            llamada.AppendFormat("{0},{1},{2},{3} ", this.razonSocial, this.CalcularGanancia(Llamada.TipoLlamada.Todas), this.CalcularGanancia(Llamada.TipoLlamada.Local),this.CalcularGanancia(Llamada.TipoLlamada.Provincial));
+            llamada.AppendFormat("Razon social:{0},Ganancia Total: {1},Ganancia Local: {2}, Ganancia provincial: {3} ", this.razonSocial, this.CalcularGanancia(Llamada.TipoLlamada.Todas), this.CalcularGanancia(Llamada.TipoLlamada.Local),this.CalcularGanancia(Llamada.TipoLlamada.Provincial));
+            llamada.AppendLine("\n");
 
-            for (int i = 0; i < this.ListaDeLlamadas.Capacity; i++)
+            foreach(Llamada unaLlamada in ListaDeLlamadas)
             {
-                ListaDeLlamadas.ElementAt<Llamada>(i).Mostrar();
+                llamada.AppendLine(unaLlamada.Mostrar()+"\n");
+
             }
             return llamada.ToString();
         }
@@ -101,6 +103,7 @@ namespace CentralTelefonica
         public void OrdenarLlamadas()
         {
             this.ListaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
+            Console.WriteLine("Ordeno la lista");
         }
     }
 }

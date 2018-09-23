@@ -63,7 +63,7 @@ namespace CentralTelefonica
          public string Mostrar()
          {
             StringBuilder llamada = new StringBuilder(); 
-            llamada.AppendFormat("{0},{1},{2} ", Duracion,NroDestino,NroOrigen);
+            llamada.AppendFormat("Duracion: {0},Nro Destino:{1},Nro Origen: {2} ", Duracion,NroDestino,NroOrigen);
             return llamada.ToString() ;
          }
          
@@ -71,12 +71,13 @@ namespace CentralTelefonica
         {
             if (llamada1.duracion > llamada2.duracion)
             {
-                return -1;
-            }
-            else if (llamada1.duracion < llamada2.duracion)
-            {
                 return 1;
             }
+            if (llamada1.duracion < llamada2.duracion)
+            {
+                return -1;
+            }
+
             return 0;
         }
 

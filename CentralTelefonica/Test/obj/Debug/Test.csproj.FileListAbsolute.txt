@@ -9,3 +9,14 @@ C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\CentralT
 C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\CentralTelefonica\Test\obj\Debug\Test.csproj.CopyComplete
 C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\CentralTelefonica\Test\obj\Debug\Test.exe
 C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\CentralTelefonica\Test\obj\Debug\Test.pdb
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\Test\bin\Debug\Test.exe.config
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\Test\bin\Debug\Test.exe
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\Test\bin\Debug\Test.pdb
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\Test\bin\Debug\CentralTelefonica.exe
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\Test\bin\Debug\CentralTelefonica.pdb
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\Test\bin\Debug\CentralTelefonica.exe.config
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\Test\obj\Debug\Test.exe
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\Test\obj\Debug\Test.pdb
