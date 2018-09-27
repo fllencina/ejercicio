@@ -42,3 +42,14 @@ D:\VisualStudio\fernanda\ejercicio-master\Ejercicio 40\Test\obj\Debug\Test.cspro
 D:\VisualStudio\fernanda\ejercicio-master\Ejercicio 40\Test\obj\Debug\Test.csproj.CopyComplete
 D:\VisualStudio\fernanda\ejercicio-master\Ejercicio 40\Test\obj\Debug\Test.exe
 D:\VisualStudio\fernanda\ejercicio-master\Ejercicio 40\Test\obj\Debug\Test.pdb
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\Test\bin\Debug\Test.exe.config
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\Test\bin\Debug\Test.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\Test\bin\Debug\Test.pdb
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\Test\bin\Debug\CentralTelefonica.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\Test\bin\Debug\CentralTelefonica.pdb
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\Test\bin\Debug\CentralTelefonica.exe.config
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\Test\obj\Debug\Test.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\Test\obj\Debug\Test.pdb

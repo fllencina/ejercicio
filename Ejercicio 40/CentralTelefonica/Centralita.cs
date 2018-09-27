@@ -8,7 +8,7 @@ namespace CentralTelefonica
 {
     public class Centralita
     {
-        private List<Llamada> ListaDeLlamadas=new List<Llamada>();
+        private List<Llamada> ListaDeLlamadas = new List<Llamada>();
         public string razonSocial;
 
         //metodos
@@ -16,47 +16,45 @@ namespace CentralTelefonica
         {
             float ganancia = 0;
 
-            foreach ( Llamada unaLlamada in ListaDeLlamadas)
+            foreach (Llamada unaLlamada in ListaDeLlamadas)
             {
-                //ganancia = 0;
-                switch(tipo)
+                switch (tipo)
                 {
                     case Llamada.TipoLlamada.Local:
                         if (unaLlamada is Local)
                         {
-                            ganancia = ganancia + ((Local)unaLlamada).CostoLlamada;
+                            ganancia = ganancia + unaLlamada.CostoLlamada;
                         }
                         break;
                     case Llamada.TipoLlamada.Provincial:
                         if (unaLlamada is Provincial)
                         {
-                            ganancia = ganancia + ((Provincial)unaLlamada).CostoLlamada;
+                            ganancia = ganancia + unaLlamada.CostoLlamada;
                         }
                         break;
                     case Llamada.TipoLlamada.Todas:
                         if (unaLlamada is Local)
                         {
-                            ganancia = ganancia + ((Local)unaLlamada).CostoLlamada;
+                            ganancia = ganancia + unaLlamada.CostoLlamada;
                         }
                         if (unaLlamada is Provincial)
                         {
-                            ganancia = ganancia + ((Provincial)unaLlamada).CostoLlamada;
+                            ganancia = ganancia + unaLlamada.CostoLlamada;
                         }
-                        break;                       
+                        break;
                 }
             }
-            return ganancia; 
+            return ganancia;
         }
-       
+
         public string Mostrar()
         {
             StringBuilder llamada = new StringBuilder();
-            llamada.AppendFormat("Razon social:{0},\nGanancia Total: {1},Ganancia Local: {2}, Ganancia provincial: {3} ", this.razonSocial, this.CalcularGanancia(Llamada.TipoLlamada.Todas), this.CalcularGanancia(Llamada.TipoLlamada.Local),this.CalcularGanancia(Llamada.TipoLlamada.Provincial));
-            llamada.AppendLine("\n");
+            llamada.AppendFormat("Razon social:{0},\nGanancia Total: {1},Ganancia Local: {2}, Ganancia provincial: {3}\n", this.razonSocial, this.CalcularGanancia(Llamada.TipoLlamada.Todas), this.CalcularGanancia(Llamada.TipoLlamada.Local), this.CalcularGanancia(Llamada.TipoLlamada.Provincial));
 
-            foreach(Llamada unaLlamada in ListaDeLlamadas)
+            foreach (Llamada unaLlamada in ListaDeLlamadas)
             {
-                llamada.AppendLine(unaLlamada.ToString()+"\n");
+                llamada.AppendLine(unaLlamada.ToString());
 
             }
             return llamada.ToString();
@@ -69,7 +67,7 @@ namespace CentralTelefonica
 
         public Centralita()
         {
-            
+
         }
         public Centralita(string NombreEmpresa)
         {
@@ -80,7 +78,7 @@ namespace CentralTelefonica
         {
             get
             {
-               return  this.CalcularGanancia(Llamada.TipoLlamada.Local);
+                return this.CalcularGanancia(Llamada.TipoLlamada.Local);
             }
         }
         public float GananciaPorProvincial
@@ -112,9 +110,9 @@ namespace CentralTelefonica
 
         // sobrecargas
 
-        public static bool operator==(Centralita c, Llamada llamada)
+        public static bool operator ==(Centralita c, Llamada llamada)
         {
-            if(c.ListaDeLlamadas.Count>0)
+            if (c.ListaDeLlamadas.Count > 0)
             {
                 foreach (Llamada m in c.ListaDeLlamadas)
                 {
@@ -136,7 +134,7 @@ namespace CentralTelefonica
         }
         public static Centralita operator +(Centralita c, Llamada llamada)
         {
-            if(c!=llamada)
+            if (c != llamada)
             {
                 c.AgregarLlamada(llamada);
                 return c;

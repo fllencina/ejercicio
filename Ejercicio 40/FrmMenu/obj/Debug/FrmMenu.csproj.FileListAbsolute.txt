@@ -1,0 +1,17 @@
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\bin\Debug\FrmMenu.exe.config
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\bin\Debug\FrmMenu.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\bin\Debug\FrmMenu.pdb
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\obj\Debug\FrmMenu.csprojAssemblyReference.cache
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\obj\Debug\FrmMenu.Central_Telefonica.resources
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\obj\Debug\FrmMenu.Properties.Resources.resources
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\obj\Debug\FrmMenu.csproj.GenerateResource.cache
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\obj\Debug\FrmMenu.csproj.CoreCompileInputs.cache
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\obj\Debug\FrmMenu.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\obj\Debug\FrmMenu.pdb
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\bin\Debug\CentralTelefonica.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\bin\Debug\FrmLlamador.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\bin\Debug\CentralTelefonica.pdb
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\bin\Debug\CentralTelefonica.exe.config
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\bin\Debug\FrmLlamador.pdb
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\bin\Debug\FrmLlamador.exe.config
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\ejercicio-master\Ejercicio 40\FrmMenu\obj\Debug\FrmMenu.csproj.CopyComplete

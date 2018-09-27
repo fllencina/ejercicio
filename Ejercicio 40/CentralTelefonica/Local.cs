@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CentralTelefonica
 {
-    public class Local:Llamada
+    public class Local : Llamada
     {
         protected float costo;
         //propiedades
@@ -24,16 +24,16 @@ namespace CentralTelefonica
         }
         public override bool Equals(object obj)
         {
-            if(obj is Local)
+            if (obj is Local)
             {
                 return true;
             }
             return false;
         }
 
-        public Local(Llamada llamada, float costo):this(llamada.NroOrigen, llamada.Duracion,llamada.NroDestino,costo)
+        public Local(Llamada llamada, float costo) : this(llamada.NroOrigen, llamada.Duracion, llamada.NroDestino, costo)
         { }
-        public Local(string origen, float duracion,string destino,float costo):base(duracion,destino,origen)
+        public Local(string origen, float duracion, string destino, float costo) : base(duracion, destino, origen)
         {
             this.costo = costo;
         }
@@ -41,7 +41,7 @@ namespace CentralTelefonica
         {
             string retorno = base.Mostrar();
             StringBuilder local = new StringBuilder();
-            local.AppendFormat("Llamada: {0},Costo Llamada:{1}", retorno, this.CostoLlamada);
+            local.AppendFormat("Llamada: {0},\nCosto Llamada:{1}", retorno, this.CostoLlamada);
             return local.ToString();
         }
         public override string ToString()
@@ -49,5 +49,5 @@ namespace CentralTelefonica
             return this.Mostrar();
         }
     }
-    
+
 }

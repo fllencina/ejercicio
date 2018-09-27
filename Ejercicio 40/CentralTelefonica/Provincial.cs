@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CentralTelefonica
 {
-    public class Provincial:Llamada
+    public class Provincial : Llamada
     {
         public enum Franja
         {
@@ -28,14 +28,14 @@ namespace CentralTelefonica
         //metodos
         private float CalcularCosto()
         {
-            if(this.franjaHoraria==Franja.Franja_1)
+            if (this.franjaHoraria == Franja.Franja_1)
             {
                 return this.duracion * 0.99f;
             }
             if (this.franjaHoraria == Franja.Franja_2)
             {
-                return this.duracion *1.25f;
-            }        
+                return this.duracion * 1.25f;
+            }
             return this.duracion * 0.66f;
         }
 
@@ -51,16 +51,16 @@ namespace CentralTelefonica
         {
             string retorno = base.Mostrar();
             StringBuilder provincia = new StringBuilder();
-            provincia.AppendFormat("Llamada: {0}, Costo Llamada: {1},Franja Horaria: {2}", retorno, this.CostoLlamada,this.franjaHoraria);
+            provincia.AppendFormat("Llamada: {0},\nCosto Llamada: {1},Franja Horaria: {2}", retorno, this.CostoLlamada, this.franjaHoraria);
             return provincia.ToString();
         }
         public override string ToString()
         {
             return this.Mostrar();
         }
-        public Provincial(Franja miFranja,Llamada llamada):this(llamada.NroOrigen,miFranja,llamada.Duracion,llamada.NroDestino)
+        public Provincial(Franja miFranja, Llamada llamada) : this(llamada.NroOrigen, miFranja, llamada.Duracion, llamada.NroDestino)
         { }
-        public Provincial(string origen,Franja miFranja,float duracion,string destino): base(duracion, destino, origen)
+        public Provincial(string origen, Franja miFranja, float duracion, string destino) : base(duracion, destino, origen)
         {
             this.franjaHoraria = miFranja;
         }
