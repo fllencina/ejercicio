@@ -1,0 +1,28 @@
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.csprojAssemblyReference.cache
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.csproj.CoreCompileInputs.cache
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\CentralTelefonica\CentralTelefonica\bin\Debug\CentralTelefonica.exe.config
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\CentralTelefonica\CentralTelefonica\bin\Debug\CentralTelefonica.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\CentralTelefonica\CentralTelefonica\bin\Debug\CentralTelefonica.pdb
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.pdb
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\CentralTelefonica\bin\Debug\CentralTelefonica.exe.config
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\CentralTelefonica\bin\Debug\CentralTelefonica.exe
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\CentralTelefonica\bin\Debug\CentralTelefonica.pdb
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.csprojAssemblyReference.cache
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.csproj.CoreCompileInputs.cache
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.exe
+C:\Users\Fernanda\Desktop\ejercicio-master\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.pdb
+D:\VisualStudio\fernanda\ejercicio-master\CentralTelefonica\CentralTelefonica\bin\Debug\CentralTelefonica.exe.config
+D:\VisualStudio\fernanda\ejercicio-master\CentralTelefonica\CentralTelefonica\bin\Debug\CentralTelefonica.exe
+D:\VisualStudio\fernanda\ejercicio-master\CentralTelefonica\CentralTelefonica\bin\Debug\CentralTelefonica.pdb
+D:\VisualStudio\fernanda\ejercicio-master\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.csprojAssemblyReference.cache
+D:\VisualStudio\fernanda\ejercicio-master\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.csproj.CoreCompileInputs.cache
+D:\VisualStudio\fernanda\ejercicio-master\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.exe
+D:\VisualStudio\fernanda\ejercicio-master\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.pdb
+D:\VisualStudio\fernanda\ejercicio-master\Ejercicio 40\CentralTelefonica\obj\Debug\CentralTelefonica.csprojAssemblyReference.cache
+D:\VisualStudio\fernanda\ejercicio-master\Ejercicio 40\CentralTelefonica\obj\Debug\CentralTelefonica.csproj.CoreCompileInputs.cache
+D:\VisualStudio\fernanda\ejercicio-master\Ejercicio 40\CentralTelefonica\obj\Debug\CentralTelefonica.exe
+D:\VisualStudio\fernanda\ejercicio-master\Ejercicio 40\CentralTelefonica\obj\Debug\CentralTelefonica.pdb
+D:\VisualStudio\fernanda\ejercicio-master\Ejercicio 40\CentralTelefonica\bin\Debug\CentralTelefonica.exe.config
+D:\VisualStudio\fernanda\ejercicio-master\Ejercicio 40\CentralTelefonica\bin\Debug\CentralTelefonica.exe
+D:\VisualStudio\fernanda\ejercicio-master\Ejercicio 40\CentralTelefonica\bin\Debug\CentralTelefonica.pdb
