@@ -11,7 +11,7 @@ namespace Entidades_2018
    public  class Leche : Producto
     {
         public enum ETipo { Entera, Descremada }
-        ETipo tipo;
+        public ETipo tipo;
 
         /// <summary>
         /// Por defecto, TIPO será ENTERA
@@ -37,11 +37,11 @@ namespace Entidades_2018
         {
             get
             {
-                return this.CantidadCalorias;
+                return 20;
             }
         }
 
-        public override sealed string Mostrar()
+        public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 

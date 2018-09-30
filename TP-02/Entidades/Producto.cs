@@ -35,7 +35,6 @@ namespace Entidades_2018
             return sb.ToString();
         }
       
-
         public static explicit operator string(Producto p)
         {
             StringBuilder sb = new StringBuilder();

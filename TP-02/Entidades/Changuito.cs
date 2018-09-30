@@ -24,7 +24,7 @@ namespace Entidades_2018
         {
             productos = new List<Producto>();
         }
-        public Changuito(int espacioDisponible)
+        public Changuito(int espacioDisponible) : this()
         {
             this.espacioDisponible = espacioDisponible;
         }
@@ -61,13 +61,22 @@ namespace Entidades_2018
                 switch (tipo)
                 {
                     case ETipo.Snacks:
-                        sb.AppendLine(v.Mostrar());
+                        if (v is Snacks)
+                        {
+                            sb.AppendLine(v.Mostrar());
+                        }
                         break;
                     case ETipo.Dulce:
-                        sb.AppendLine(v.Mostrar());
+                        if (v is Dulce)
+                        {
+                            sb.AppendLine(v.Mostrar());
+                        }
                         break;
                     case ETipo.Leche:
-                        sb.AppendLine(v.Mostrar());
+                        if (v is Leche)
+                        {
+                            sb.AppendLine(v.Mostrar());
+                        }
                         break;
                     default:
                         sb.AppendLine(v.Mostrar());
@@ -93,7 +102,10 @@ namespace Entidades_2018
                 if (v == p)
                     return c;
             }
-            c.productos.Add(p);
+            if (c.productos.Count < 6)
+            {
+                c.productos.Add(p);
+            }
             return c;
         }
         /// <summary>
@@ -108,6 +120,8 @@ namespace Entidades_2018
             {
                 if (v == p)
                 {
+                    c.productos.Remove(v);
+                   
                     break;
                 }
             }

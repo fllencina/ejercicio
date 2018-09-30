@@ -23,7 +23,7 @@ namespace Entidades_2018
             }
         }
 
-        public override sealed string Mostrar()
+        public override  string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
