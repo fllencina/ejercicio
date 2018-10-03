@@ -9,7 +9,7 @@ namespace PrestamosPersonales
     public class PrestamoPesos:Prestamo
     {
         private float porcentajeInteres;
-        public float interes
+        public float Interes
         {
             get
             {
@@ -40,7 +40,7 @@ namespace PrestamosPersonales
         public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("{0} \nPorcentaje de Interes: {1} - Intereses: {2}", Mostrar(), this.porcentajeInteres, CalcularInteres());
+            sb.AppendFormat("{0} \nPorcentaje de Interes: {1} - Intereses: {2}",base.Mostrar(), this.porcentajeInteres, CalcularInteres());
             return sb.ToString();
         }
     }

@@ -13,7 +13,7 @@ namespace PrestamosPersonales
            
             {
                 Financiera financiera = new Financiera("Mi Financiera");
-                PrestamoDolar pd1 = new PrestamoDolar(1500, new DateTime(2017, 11, 01),
+                PrestamoDolar pd1 = new PrestamoDolar(1500, new DateTime(2019, 11, 01),
                 PeriodicidadDePagos.Mensual);
                 PrestamoDolar pd2 = new PrestamoDolar(2000, new DateTime(2017, 12, 05),
                 PeriodicidadDePagos.Bimestral);
@@ -36,7 +36,7 @@ namespace PrestamosPersonales
                 pp1.ExtenderPlazo(new DateTime(2018, 02, 01));
                 financiera.OrdenarPrestamos();
                 Console.WriteLine("\n ********************ORDENADOS POR FECHA**************************");
-                Console.WriteLine(Financiera.Mostrar(financiera));
+                Console.WriteLine(financiera.Mostrar(financiera));
                 Console.ReadKey();
             }
         }

@@ -1,0 +1,6 @@
+D:\VisualStudio\fernanda\EntidadFinanciera\EntidadFinanciera\bin\Debug\EntidadFinanciera.dll
+D:\VisualStudio\fernanda\EntidadFinanciera\EntidadFinanciera\bin\Debug\EntidadFinanciera.pdb
+D:\VisualStudio\fernanda\EntidadFinanciera\EntidadFinanciera\obj\Debug\EntidadFinanciera.csprojAssemblyReference.cache
+D:\VisualStudio\fernanda\EntidadFinanciera\EntidadFinanciera\obj\Debug\EntidadFinanciera.csproj.CoreCompileInputs.cache
+D:\VisualStudio\fernanda\EntidadFinanciera\EntidadFinanciera\obj\Debug\EntidadFinanciera.dll
+D:\VisualStudio\fernanda\EntidadFinanciera\EntidadFinanciera\obj\Debug\EntidadFinanciera.pdb

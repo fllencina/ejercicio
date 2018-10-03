@@ -1,0 +1,7 @@
+D:\VisualStudio\fernanda\EntidadFinanciera\PrestamosPersonales\bin\Debug\PrestamosPersonales.exe.config
+D:\VisualStudio\fernanda\EntidadFinanciera\PrestamosPersonales\bin\Debug\PrestamosPersonales.exe
+D:\VisualStudio\fernanda\EntidadFinanciera\PrestamosPersonales\bin\Debug\PrestamosPersonales.pdb
+D:\VisualStudio\fernanda\EntidadFinanciera\PrestamosPersonales\obj\Debug\PrestamosPersonales.csprojAssemblyReference.cache
+D:\VisualStudio\fernanda\EntidadFinanciera\PrestamosPersonales\obj\Debug\PrestamosPersonales.csproj.CoreCompileInputs.cache
+D:\VisualStudio\fernanda\EntidadFinanciera\PrestamosPersonales\obj\Debug\PrestamosPersonales.exe
+D:\VisualStudio\fernanda\EntidadFinanciera\PrestamosPersonales\obj\Debug\PrestamosPersonales.pdb

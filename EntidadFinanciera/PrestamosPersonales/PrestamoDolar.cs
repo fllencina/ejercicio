@@ -30,7 +30,7 @@ namespace PrestamosPersonales
                 this.monto = (Monto * 2.5f )/100;
             }
         }
-        public  float interes
+        public float Interes
         {
             get
             {
@@ -55,11 +55,8 @@ namespace PrestamosPersonales
                 case PeriodicidadDePagos.Bimestral:
                     interes=(this.Monto * 35 / 100);
                     break;
-                case PeriodicidadDePagos.Trimestral:
-                    interes= (this.Monto*40/100);
-                    break;
                 default:
-                    interes = -1;
+                    interes = (this.Monto * 40 / 100);
                     break;
             }
             return interes;
@@ -67,7 +64,7 @@ namespace PrestamosPersonales
         public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("{0} \nPeriodicidad: {1} - Intereses: {2}", Mostrar(), this.periodicidad, CalcularInteres());
+            sb.AppendFormat("{0} \nPeriodicidad: {1} - Intereses: {2}",base.Mostrar(), this.periodicidad, CalcularInteres());
             return sb.ToString();
         }
     }
